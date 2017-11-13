@@ -1,0 +1,187 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30 oct. 2017, 08:43:04
+    Author     : yanis
+*/
+body, p, h1,form, input, fieldset
+{
+  margin:0;
+  padding:0;
+}
+
+body 
+{
+  /*background-color: #F4F4F4;*/
+  background-image:url(../img/background1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; /* This is what makes the background image rescale based on the container's size*/
+}
+
+#messageErreur{
+    text-align: center;
+    font:12px Montserrat, Arial, Helvetica, sans-serif;
+    color: red;
+}
+
+#indexContainer {
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    border: solid 1px #c3c2c2;
+    border-radius:5px;
+    background-color:#fff; 
+}
+
+.underIndex {
+    width: 100%;
+    height: 40px;
+    background-color: #a0deff;
+}
+
+#message{
+    text-align: center;
+    font:26px Montserrat, Arial, Helvetica, sans-serif;
+
+}
+
+.boxesCo1 {
+    
+    padding-top:10%;
+    padding-bottom:10%;
+    border-radius:8px;    
+    margin:auto;
+    width: 60%;
+    background-color: #30a5ff;
+    border: 0.1px solid ;
+    border-color: #3188de;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 15px;
+    
+}
+
+.boxesCo1:hover {
+    background-color: #46afff;    
+}
+
+.boxesCo2 {
+    
+    padding-top:15px;
+    padding-bottom:15px;
+    border-radius:5px;    
+    margin:auto;
+    width: 60%;
+    heigth:40px;
+    background-color: #30a5ff;
+    border: 1px solid ;
+    text-align: center;
+    margin-bottom: 20px;  
+}
+
+.lien {
+    text-decoration:none;
+    text-align:center;
+    font:20px Montserrat, Arial, Helvetica, sans-serif;  
+    color: #353536;
+}
+
+.lien:hover {
+    color: #000;
+}
+
+#moncercle{
+  background-image:url(../img/direction.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius:50%;
+  width:210px;
+  height:210px;
+  border:0px solid #010101; 
+  margin:auto;
+  margin-top:10%;
+}
+
+
+.nav-right {
+    position:relative;
+    display:block;
+    margin-top:0px;
+    list-style:none;
+}
+
+.cases{
+    background:rgba(255, 255, 255, 0.1);
+    float:left;
+    margin:10px 8px;
+    padding:0px;
+    border-radius:4px;
+}
+
+.cases-link {
+    width: 100%;
+}
+
+
+
+#connexion 
+{
+  width:400px;
+  background:#FFFFFF;
+  margin:20px auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:1em;
+  border:1px solid #ccc;
+  border-radius:10px;
+}
+
+#connexion fieldset 
+{
+  text-align:center;
+  font-size:1.2em;
+  background:#333333;
+  padding-bottom:5px;
+  margin-bottom:15px;
+  color:#FFFFFF;
+  letter-spacing:0.05em;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  border:1;
+}
+
+#connexion p 
+{
+  padding-top:15px;
+  padding-right:50px;
+  text-align:right;
+}
+
+#connexion input 
+{
+  margin-left:30px;
+  width:150px;
+}
+
+#connexion #valider 
+{
+  width:155px;
+  font-size:0.8em;
+}
+
+#connexion #message 
+{
+  height:27px;
+  color:#F00;
+  font-size:0.8em;
+  font-weight:bold;
+  text-align:center;
+  padding:10px 0 0 0;
+}
+
